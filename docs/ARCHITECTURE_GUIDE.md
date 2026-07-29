@@ -68,6 +68,8 @@ API → Application → Infrastructure (via abstrações)
   - `Result<T>` — operações que retornam um item (Create, Update, Get)
   - `Result<CollectionResult<T>>` — operações que retornam coleções (List)
 
+> Para o contrato completo, fluxo de FluentValidation, exemplos de `Result<T>.Fail`, `Result<T>.Success(result.Value!)` e adaptação no controller, consulte [RESULT_VALIDATION_CONTROLLER_GUIDE.md](RESULT_VALIDATION_CONTROLLER_GUIDE.md).
+
 ---
 
 ## 6. Tipos de Retorno por Operação
